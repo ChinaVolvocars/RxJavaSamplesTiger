@@ -8,7 +8,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import com.rengwuxian.rxjavasamples.module.MyFragment;
+import com.rengwuxian.rxjavasamples.module.mine.MineFragment;
 import com.rengwuxian.rxjavasamples.module.token_advanced_5.TokenAdvancedFragment;
 import com.rengwuxian.rxjavasamples.module.token_4.TokenFragment;
 import com.rengwuxian.rxjavasamples.module.cache_6.CacheFragment;
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                     case 5:
                         return new CacheFragment();
                     case 6:
-                        return new MyFragment();
+                        return new MineFragment();
                     default:
                         return new ElementaryFragment();
                 }
